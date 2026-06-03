@@ -1,0 +1,4 @@
+vacation_photo.jpg
+icon_main.png
+background_image.gif
+avatar.jpg

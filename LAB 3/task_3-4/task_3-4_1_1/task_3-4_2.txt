@@ -1,0 +1,6 @@
+4.0K	./documents/future
+4.0K	./documents/past
+12K	./documents
+4.0K	./backups
+4.0K	./images
+24K	./

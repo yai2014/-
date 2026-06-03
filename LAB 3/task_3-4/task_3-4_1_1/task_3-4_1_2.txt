@@ -1,0 +1,36 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+yara2408@ProPactos:~$ echo "ls -lah /"
+  echo ""
+  ls -lah /
+ls -lah /
+
+total 2.8M
+drwxr-xr-x  22 root root 4.0K Mar 17 14:31 .
+drwxr-xr-x  22 root root 4.0K Mar 17 14:31 ..
+lrwxrwxrwx   1 root root    7 Apr 22  2024 bin -> usr/bin
+drwxr-xr-x   2 root root 4.0K Feb 26  2024 bin.usr-is-merged
+drwxr-xr-x   2 root root 4.0K Apr 22  2024 boot
+drwxr-xr-x  15 root root 3.8K Mar 17 14:31 dev
+drwxr-xr-x  87 root root 4.0K Mar 24 13:58 etc
+drwxr-xr-x   3 root root 4.0K Mar 17 14:30 home
+-rwxr-xr-x   1 root root 2.7M Dec 12 04:58 init
+lrwxrwxrwx   1 root root    7 Apr 22  2024 lib -> usr/lib
+drwxr-xr-x   2 root root 4.0K Apr  8  2024 lib.usr-is-merged
+lrwxrwxrwx   1 root root    9 Apr 22  2024 lib64 -> usr/lib64
+drwx------   2 root root  16K Mar 17 14:29 lost+found
+drwxr-xr-x   2 root root 4.0K Jan  6  2025 media
+drwxr-xr-x   5 root root 4.0K Mar 17 14:30 mnt
+drwxr-xr-x   2 root root 4.0K Jan  6  2025 opt
+dr-xr-xr-x 273 root root    0 Mar 17 14:31 proc
+drwx------   4 root root 4.0K Mar 17 14:30 root
+drwxr-xr-x  20 root root  600 Mar 19 13:31 run
+lrwxrwxrwx   1 root root    8 Apr 22  2024 sbin -> usr/sbin
+drwxr-xr-x   2 root root 4.0K Mar 31  2024 sbin.usr-is-merged
+drwxr-xr-x   2 root root 4.0K Mar 17 14:30 snap
+drwxr-xr-x   2 root root 4.0K Jan  6  2025 srv
+dr-xr-xr-x  13 root root    0 Mar 24 13:52 sys
+drwxrwxrwt   8 root root 4.0K Mar 24 13:58 tmp
+drwxr-xr-x  12 root root 4.0K Jan  6  2025 usr
+drwxr-xr-x  13 root root 4.0K Mar 17 14:30 var
