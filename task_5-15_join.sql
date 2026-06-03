@@ -1,0 +1,6 @@
+SELECT 
+    p.name AS "название товара",
+    pr.price AS "цена"
+FROM products p
+JOIN prices pr ON p.id = pr.product_id
+ORDER BY p.name, pr.price;
